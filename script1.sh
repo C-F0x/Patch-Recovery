@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mv 07l1i1.img recovery.img
+
 if [ -f recovery.img.lz4 ];then
 	lz4 -B6 --content-size -f recovery.img.lz4 recovery.img
 fi
