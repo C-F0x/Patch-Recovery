@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mv 07l1i1.img recovery.img
+
 mkdir unpack
 cd unpack
 ../magiskboot unpack ../r.img
